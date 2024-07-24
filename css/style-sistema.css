@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(to right, rgb(97, 166, 255), rgb(140, 213, 255));
+    width: 100vw;
+    height: 100vh;
+}
+
+/* BARRA DE NAVEDAÇÃO */
+.nav-bar{
+    width: 100vw;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* IMAGEM LOGO BARRA DE NAVEGAÇÃO */
+.nav-bar img{
+    height: 60px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .212);
+}
+
+/* BOTÃO SAIR */
+.nav-bar a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 15px;
+    padding: 10px 20px;
+    background-color: rgb(134, 131, 131);
+    border-radius: 10px;
+    outline: none;
+    text-decoration: none;
+    color: rgb(46, 45, 45);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .212);
+    cursor: pointer;
+    transition: 0.5s;
+    font-weight: 800;
+    letter-spacing: 1px;
+    font-size: 12px;
+}
+
+.nav-bar a:hover{
+    background-color: rgb(204, 202, 202);
+}
+
+/* OPÇÕES DE CADASTRAR E CONSULTAR */
+.nav-bar fieldset{
+    display: flex;
+    height: auto;
+    padding: auto;
+    border: 3px solid rgb(134, 131, 131);
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .212);
+}
+
+.nav-bar fieldset a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 15px;
+    padding: 10px 20px;
+    background-color: rgb(134, 131, 131);
+    border-radius: 10px;
+    outline: none;
+    text-decoration: none;
+    color: rgb(46, 45, 45);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .212);
+    cursor: pointer;
+    transition: 0.5s;
+    font-weight: 800;
+    letter-spacing: 1px;
+    font-size: 12px;
+}
+
+.nav-bar fieldset a:hover{
+    background-color: rgb(204, 202, 202);
+}
+
+.nav-bar fieldset legend{
+    border: 1PX solid rgb(134, 131, 131);
+    background-color: rgb(134, 131, 131);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .212);
+    letter-spacing: 1px;
+    font-size: 12px;
+    padding: 8px 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: rgb(46, 45, 45);
+}
+/* ----------------------------------------------------------------- */
+.container{ 
+    display: flex;  
+    width: 100%;
+    height: 100% ;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    display: flex;
+    padding: 30px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, .212); 
+    align-items: center;
+    justify-content: center;
+}
+
+.box img{
+    max-width: 50%;
+    max-height: 50%;
+}
+

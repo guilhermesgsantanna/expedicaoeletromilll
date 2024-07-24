@@ -1,0 +1,69 @@
+    <!-- session_start();
+    print_r($_SESSION); -->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expedição Elertromil</title>
+    <link rel="stylesheet" href="css/style-home.css">
+
+</head>
+
+<body>
+    <!-- CONTAINER PRINCIPAL, CONTEM OS DADOS DO CORPO DO SITE -->
+    <div class="container-principal">
+
+        <!-- DIV QUE CONTEM OS DADOS DA ESQUERDA, IMAGEM -->
+        <div class="box-esq">
+            <div class="mil-exp-titulo">
+                <h1>Eletromil Comercial LTDA</h1>
+                <h2>Expedição</h2>
+            </div>
+
+            <div class="img-principal">
+                <img class="img-eletromil" src="img/eletromil.png" alt="IMAGEM ELETROMIL">
+            </div>
+            
+        </div>
+
+        <!-- DIV QUE CONTEM OS DADOS DA ESQUERDA, FORMULÁRIO -->
+        <div class="box-dir">
+            <div class="card-login">
+
+                <div class="box-header">
+                        <h1>LOGIN</h1>
+                </div>
+                
+
+                <!-- LOGIN NO SISTEMA -->    
+
+                <div class="form-login">
+                    <form class="form-login" action="verificaLogin.php" method="post">
+
+                        <div class="text-login">
+                            <label for="usuario">Usuário</label>
+                            <input type="text" id="usuario" name="usuario" placeholder="Usuário" required> 
+                        </div>
+
+                        <div class="text-login">
+                            <label for="senha">Senha</label>
+                            <input type="password" id="senha" name="senha" placeholder="Senha" required>                    
+                        </div>
+                        
+                        <div class="footer-login">
+                            <input class="btn-cad" type="submit" id="btnEntrar" name="btnEntrar" value="Entrar">
+
+                            <!-- ACESSO A CADASTRO DE USUARIO -->
+                            <a class="btn-cad" href="cadUsuario.php">Cadastrar</a>
+                        </div>
+                            
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
